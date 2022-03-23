@@ -1,0 +1,390 @@
+Script started on 2022-03-15 19:54:43-07:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="80" LINES="24"]
+(base) ]0;glados@ubuntu: ~[01;32mglados@ubuntu[00m:[01;34m~[00m$ pwd
+/home/glados
+(base) ]0;glados@ubuntu: ~[01;32mglados@ubuntu[00m:[01;34m~[00m$ ls - l
+ls: cannot access '-': No such file or directory
+ls: cannot access 'l': No such file or directory
+(base) ]0;glados@ubuntu: ~[01;32mglados@ubuntu[00m:[01;34m~[00m$ ls -l
+total 52
+drwxrwxr-x 28 glados glados 4096 Nov 28 16:57 [0m[01;34manaconda3[0m
+drwxrwxr-x  2 glados glados 4096 Feb 12 13:17 [01;34mArchives[0m
+drwxrwxr-x  2 glados glados 4096 Mar 15 19:40 [01;34mbin[0m
+drwxr-xr-x  2 glados glados 4096 Mar 15 19:42 [01;34mDesktop[0m
+drwxr-xr-x  5 glados glados 4096 Mar 12 09:42 [01;34mDocuments[0m
+drwxr-xr-x  2 glados glados 4096 Nov 28 16:50 [01;34mDownloads[0m
+drwxr-xr-x  2 glados glados 4096 Nov 28 16:22 [01;34mMusic[0m
+drwxr-xr-x  2 glados glados 4096 Jan 10 10:03 [01;34mPictures[0m
+-rw-rw-r--  1 glados glados    0 Mar 15 19:54 project3.txt
+drwxrwxr-x  3 glados glados 4096 Feb 12 13:27 [01;34mProjects[0m
+drwxr-xr-x  2 glados glados 4096 Nov 28 16:22 [01;34mPublic[0m
+drwx------  3 glados glados 4096 Feb 12 12:20 [01;34msnap[0m
+drwxr-xr-x  2 glados glados 4096 Nov 28 16:22 [01;34mTemplates[0m
+lrwxrwxrwx  1 glados glados    4 Feb 12 13:22 [01;36mtmp[0m -> [30;42m/tmp[0m
+drwxr-xr-x  2 glados glados 4096 Nov 28 16:22 [01;34mVideos[0m
+(base) ]0;glados@ubuntu: ~[01;32mglados@ubuntu[00m:[01;34m~[00m$ ls -la
+total 168
+drwxr-xr-x 26 glados glados  4096 Mar 15 19:54 [0m[01;34m.[0m
+drwxr-xr-x  4 root   root    4096 Jan 10 11:24 [01;34m..[0m
+-rw-rw-r--  1 glados glados   359 Mar 15 19:52 .addr_book
+drwxrwxr-x  3 glados glados  4096 Nov 28 17:13 [01;34m.anaconda[0m
+drwxrwxr-x 28 glados glados  4096 Nov 28 16:57 [01;34manaconda3[0m
+drwxrwxr-x  2 glados glados  4096 Feb 12 13:17 [01;34mArchives[0m
+-rw-------  1 glados glados 28504 Mar 13 11:26 .bash_history
+-rw-r--r--  1 glados glados   220 Nov 28 16:14 .bash_logout
+-rw-r--r--  1 glados glados  4252 Nov 28 17:41 .bashrc
+drwxrwxr-x  2 glados glados  4096 Mar 15 19:40 [01;34mbin[0m
+drwxrwxr-x 17 glados glados  4096 Jan  5 20:37 [01;34m.cache[0m
+drwxrwxr-x  2 glados glados  4096 Jan  7 13:01 [01;34m.conda[0m
+-rw-rw-r--  1 glados glados    48 Nov 28 17:42 .condarc
+drwx------ 16 glados glados  4096 Mar  9 09:04 [01;34m.config[0m
+drwxrwxr-x  3 glados glados  4096 Nov 28 17:13 [01;34m.continuum[0m
+drwxr-xr-x  2 glados glados  4096 Mar 15 19:42 [01;34mDesktop[0m
+drwxr-xr-x  5 glados glados  4096 Mar 12 09:42 [01;34mDocuments[0m
+drwxr-xr-x  2 glados glados  4096 Nov 28 16:50 [01;34mDownloads[0m
+-rw-rw-r--  1 glados glados    59 Jan 28 19:43 .gitconfig
+drwx------  3 glados glados  4096 Mar  7 19:21 [01;34m.gnupg[0m
+drwxrwxr-x  5 glados glados  4096 Nov 28 17:24 [01;34m.ipython[0m
+drwxrwxr-x  3 glados glados  4096 Nov 28 17:25 [01;34m.jupyter[0m
+drwxr-xr-x  3 glados glados  4096 Nov 28 16:22 [01;34m.local[0m
+drwx------  4 glados glados  4096 Nov 28 16:31 [01;34m.mozilla[0m
+drwxr-xr-x  2 glados glados  4096 Nov 28 16:22 [01;34mMusic[0m
+drwxr-xr-x  2 glados glados  4096 Jan 10 10:03 [01;34mPictures[0m
+-rw-r--r--  1 glados glados   807 Nov 28 17:37 .profile
+-rw-rw-r--  1 glados glados     0 Mar 15 19:54 project3.txt
+drwxrwxr-x  3 glados glados  4096 Feb 12 13:27 [01;34mProjects[0m
+drwxr-xr-x  2 glados glados  4096 Nov 28 16:22 [01;34mPublic[0m
+-rw-------  1 glados glados     7 Nov 28 17:28 .python_history
+drwx------  3 glados glados  4096 Feb 12 12:20 [01;34msnap[0m
+drwx------  2 glados glados  4096 Feb 10 17:05 [01;34m.ssh[0m
+-rw-r--r--  1 glados glados     0 Nov 28 16:41 .sudo_as_admin_successful
+drwxr-xr-x  2 glados glados  4096 Nov 28 16:22 [01;34mTemplates[0m
+lrwxrwxrwx  1 glados glados     4 Feb 12 13:22 [01;36mtmp[0m -> [30;42m/tmp[0m
+drwxr-xr-x  2 glados glados  4096 Nov 28 16:22 [01;34mVideos[0m
+(base) ]0;glados@ubuntu: ~[01;32mglados@ubuntu[00m:[01;34m~[00m$ touch ~/bin/lookup
+(base) ]0;glados@ubuntu: ~[01;32mglados@ubuntu[00m:[01;34m~[00m$ exit
+exit
+
+Script done on 2022-03-15 19:56:47-07:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2022-03-20 10:21:37-07:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+(base) ]0;glados@ubuntu: ~[01;32mglados@ubuntu[00m:[01;34m~[00m$ ls -l bin[K[K[K[K ~/bin
+total 4
+-rw-rw-r-- 1 glados glados 435 Mar 20 10:20 lookup
+(base) ]0;glados@ubuntu: ~[01;32mglados@ubuntu[00m:[01;34m~[00m$ chmod +x ~/bin/lookup
+(base) ]0;glados@ubuntu: ~[01;32mglados@ubuntu[00m:[01;34m~[00m$ chmod +x ~/bin/lookup[10Pls -l ~/bin
+total 4
+-rwxrwxr-x 1 glados glados 435 Mar 20 10:20 [0m[01;32mlookup[0m
+(base) ]0;glados@ubuntu: ~[01;32mglados@ubuntu[00m:[01;34m~[00m$ ./l[Kbi[K[K[K[K./[K[Kcd bin
+(base) ]0;glados@ubuntu: ~/bin[01;32mglados@ubuntu[00m:[01;34m~/bin[00m$ ./lookup Murhp[K[K[Krphy ~/.addr_book
+./lookup: line 5: IDENTIFIER: command not found
+Searching for ...
+(base) ]0;glados@ubuntu: ~/bin[01;32mglados@ubuntu[00m:[01;34m~/bin[00m$ exit
+exit
+
+Script done on 2022-03-20 10:23:56-07:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2022-03-20 10:27:38-07:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+(base) ]0;glados@ubuntu: ~[01;32mglados@ubuntu[00m:[01;34m~[00m$ exit./lookup Murphy ~/.addr_book
+bash: ./lookup: No such file or directory
+(base) ]0;glados@ubuntu: ~[01;32mglados@ubuntu[00m:[01;34m~[00m$ cd bin
+(base) ]0;glados@ubuntu: ~/bin[01;32mglados@ubuntu[00m:[01;34m~/bin[00m$ cd bin./lookup Murphy ~/.addr_book
+./lookup: line 5: IDENTIFIER: command not found
+Searching for ...
+(base) ]0;glados@ubuntu: ~/bin[01;32mglados@ubuntu[00m:[01;34m~/bin[00m$ exiut[K[K[Kit
+exit
+
+Script done on 2022-03-20 10:28:40-07:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2022-03-20 10:30:52-07:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+(base) ]0;glados@ubuntu: ~[01;32mglados@ubuntu[00m:[01;34m~[00m$ exit./lookup Murphy ~/.addr_book[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd bin[K
+(base) ]0;glados@ubuntu: ~/bin[01;32mglados@ubuntu[00m:[01;34m~/bin[00m$ cd bin[2Pexit./lookup Murphy ~/.addr_book
+Searching for Murphy...
+(base) ]0;glados@ubuntu: ~/bin[01;32mglados@ubuntu[00m:[01;34m~/bin[00m$ ./lookup Murphy ~/.addr_bookcd bin[K[2Pexit
+exit
+
+Script done on 2022-03-20 10:31:06-07:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2022-03-20 10:40:38-07:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+(base) ]0;glados@ubuntu: ~[01;32mglados@ubuntu[00m:[01;34m~[00m$ exit./lookup Murphy ~/.addr_book[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd bin[K
+(base) ]0;glados@ubuntu: ~/bin[01;32mglados@ubuntu[00m:[01;34m~/bin[00m$ cd bin[2Pexit./lookup Murphy ~/.addr_book
+This bash script will search for specific terms in FILE
+./lookup: line 6: syntax error near unexpected token `)'
+./lookup: line 6: `echo To use: 1) Must be in ~/bin, 2) Call ./lookup TERM_1 TERM_2'
+(base) ]0;glados@ubuntu: ~/bin[01;32mglados@ubuntu[00m:[01;34m~/bin[00m$ exit
+exit
+
+Script done on 2022-03-20 10:41:00-07:00 [COMMAND_EXIT_CODE="2"]
+Script started on 2022-03-20 10:41:34-07:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+^[[A(base) ]0;glados@ubuntu: ~[01;32mglados@ubuntu[00m:[01;34m~[00m$ exit./lookup Murphy ~/.addr_book[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd bin[K
+(base) ]0;glados@ubuntu: ~/bin[01;32mglados@ubuntu[00m:[01;34m~/bin[00m$ cd bin[2Pexit./lookup Murphy ~/.addr_book
+This bash script will search for specific terms in /home/glados/.addr_book
+./lookup: line 6: syntax error near unexpected token `)'
+./lookup: line 6: `echo To use: 1) Must be in ~/bin, 2) Call ./lookup TERM_1 TERM_2'
+(base) ]0;glados@ubuntu: ~/bin[01;32mglados@ubuntu[00m:[01;34m~/bin[00m$ ./lookup Murphy ~/.addr_bookcd bin[K[2Pexit
+exit
+
+Script done on 2022-03-20 10:42:10-07:00 [COMMAND_EXIT_CODE="2"]
+Script started on 2022-03-20 10:43:02-07:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+(base) ]0;glados@ubuntu: ~[01;32mglados@ubuntu[00m:[01;34m~[00m$ exit./lookup Murphy ~/.addr_book[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd bin[K
+(base) ]0;glados@ubuntu: ~/bin[01;32mglados@ubuntu[00m:[01;34m~/bin[00m$ cd bin[2Pexit./lookup Murphy ~/.addr_book
+This bash script will search for specific terms in /home/glados/.addr_book
+To use: 1 - Must be in /home/glados/bin, 2 - Call ./lookup TERM_1 TERM_2
+Searching for Murphy in /home/glados/.addr_book...
+Mike Murphy - Unix/Linux Instructor - email: murphymike@fhda.edu
+All Address Book Entries:
+Hendrik Vloed - Script and Infrastructure - hendrik.devloed@ugent.be
+Mike Murphy - Unix/Linux Instructor - email: murphymike@fhda.edu
+Paul Cobbaut - Author - email: paul.cobbaut@gmail.com
+Serge Ginderachter - Script and Infrastructure - email: serge@ginsys.eu
+Wouter Verhelst - Reviewer - wo@uter.be
+Ywein Brande - License and Legal - email: ywein@crealaw.eu
+(base) ]0;glados@ubuntu: ~/bin[01;32mglados@ubuntu[00m:[01;34m~/bin[00m$ ./lookup Murphy ~/.addr_bookcd bin[K[2Pexit
+exit
+
+Script done on 2022-03-20 10:44:13-07:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2022-03-20 10:45:30-07:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+(base) ]0;glados@ubuntu: ~[01;32mglados@ubuntu[00m:[01;34m~[00m$ echo added newlines to lookup
+added newlines to lookup
+(base) ]0;glados@ubuntu: ~[01;32mglados@ubuntu[00m:[01;34m~[00m$ echo added newlines to lookup[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cxit[K./lookup Murphy ~/.addr_book[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd bin[K
+(base) ]0;glados@ubuntu: ~/bin[01;32mglados@ubuntu[00m:[01;34m~/bin[00m$ cd binecho added newlines to lookupxit[K./lookup Murphy ~/.addr_book
+This bash script will search for specific terms in /home/glados/.addr_book
+To use: 1 - Must be in /home/glados/bin, 2 - Call ./lookup TERM_1 TERM_2n
+Searching for Murphy in /home/glados/.addr_book...
+Mike Murphy - Unix/Linux Instructor - email: murphymike@fhda.edu
+n
+All Address Book Entries:
+Hendrik Vloed - Script and Infrastructure - hendrik.devloed@ugent.be
+Mike Murphy - Unix/Linux Instructor - email: murphymike@fhda.edu
+Paul Cobbaut - Author - email: paul.cobbaut@gmail.com
+Serge Ginderachter - Script and Infrastructure - email: serge@ginsys.eu
+Wouter Verhelst - Reviewer - wo@uter.be
+Ywein Brande - License and Legal - email: ywein@crealaw.eu
+(base) ]0;glados@ubuntu: ~/bin[01;32mglados@ubuntu[00m:[01;34m~/bin[00m$ exit
+exit
+
+Script done on 2022-03-20 10:46:14-07:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2022-03-20 10:46:43-07:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+(base) ]0;glados@ubuntu: ~[01;32mglados@ubuntu[00m:[01;34m~[00m$ exit./lookup Murphy ~/.addr_book[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd bin[K
+(base) ]0;glados@ubuntu: ~/bin[01;32mglados@ubuntu[00m:[01;34m~/bin[00m$ cd bin[2Pexit./lookup Murphy ~/.addr_book
+This bash script will search for specific terms in /home/glados/.addr_book
+To use: 1 - Must be in /home/glados/bin, 2 - Call ./lookup TERM_1 TERM_2
+Searching for Murphy in /home/glados/.addr_book...
+Mike Murphy - Unix/Linux Instructor - email: murphymike@fhda.edu
+\n
+All Address Book Entries:
+Hendrik Vloed - Script and Infrastructure - hendrik.devloed@ugent.be
+Mike Murphy - Unix/Linux Instructor - email: murphymike@fhda.edu
+Paul Cobbaut - Author - email: paul.cobbaut@gmail.com
+Serge Ginderachter - Script and Infrastructure - email: serge@ginsys.eu
+Wouter Verhelst - Reviewer - wo@uter.be
+Ywein Brande - License and Legal - email: ywein@crealaw.eu
+(base) ]0;glados@ubuntu: ~/bin[01;32mglados@ubuntu[00m:[01;34m~/bin[00m$ ./lookup Murphy ~/.addr_bookcd bin[K[2Pexit
+exit
+
+Script done on 2022-03-20 10:47:10-07:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2022-03-20 10:47:39-07:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+^[[A(base) ]0;glados@ubuntu: ~[01;32mglados@ubuntu[00m:[01;34m~[00m$ exit./lookup Murphy ~/.addr_book[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcd bin
+(base) ]0;glados@ubuntu: ~/bin[01;32mglados@ubuntu[00m:[01;34m~/bin[00m$ cd bin[2Pexit[Kcd bin[2Pexit
+exit
+
+Script done on 2022-03-20 10:47:51-07:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2022-03-20 10:47:55-07:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+(base) ]0;glados@ubuntu: ~[01;32mglados@ubuntu[00m:[01;34m~[00m$ exitcd bin
+(base) ]0;glados@ubuntu: ~/bin[01;32mglados@ubuntu[00m:[01;34m~/bin[00m$ cd bin[2Pexitcd bin[2Pexit./lookup Murphy ~/.addr_book
+This bash script will search for specific terms in /home/glados/.addr_book
+To use: 1 - Must be in /home/glados/bin, 2 - Call ./lookup TERM_1 TERM_2
+
+Searching for Murphy in /home/glados/.addr_book...
+Mike Murphy - Unix/Linux Instructor - email: murphymike@fhda.edu
+
+All Address Book Entries:
+Hendrik Vloed - Script and Infrastructure - hendrik.devloed@ugent.be
+Mike Murphy - Unix/Linux Instructor - email: murphymike@fhda.edu
+Paul Cobbaut - Author - email: paul.cobbaut@gmail.com
+Serge Ginderachter - Script and Infrastructure - email: serge@ginsys.eu
+Wouter Verhelst - Reviewer - wo@uter.be
+Ywein Brande - License and Legal - email: ywein@crealaw.eu
+(base) ]0;glados@ubuntu: ~/bin[01;32mglados@ubuntu[00m:[01;34m~/bin[00m$ exit
+exit
+
+Script done on 2022-03-20 10:48:25-07:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2022-03-20 10:51:34-07:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+(base) ]0;glados@ubuntu: ~[01;32mglados@ubuntu[00m:[01;34m~[00m$ echo added the multiple ma[K[Kparaemter[K[K[K[K[Kmt[Keter functionality
+added the multiple parameter functionality
+(base) ]0;glados@ubuntu: ~[01;32mglados@ubuntu[00m:[01;34m~[00m$ echo added the multiple parameter functionality[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cxit[K./lookup Murphy ~/.addr_book[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd bin[K
+(base) ]0;glados@ubuntu: ~/bin[01;32mglados@ubuntu[00m:[01;34m~/bin[00m$ cd binecho added the multiple parameter functionality[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cxit[K./lookup Murphy ~/.addr_book
+This bash script will search for specific terms in /home/glados/.addr_book
+To use: 1 - Must be in /home/glados/bin, 2 - Call ./lookup TERM_1 TERM_2
+
+./lookup: line 33: syntax error: unexpected end of file
+(base) ]0;glados@ubuntu: ~/bin[01;32mglados@ubuntu[00m:[01;34m~/bin[00m$ exit
+exit
+
+Script done on 2022-03-20 10:53:04-07:00 [COMMAND_EXIT_CODE="2"]
+Script started on 2022-03-20 10:53:49-07:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+^[[A(base) ]0;glados@ubuntu: ~[01;32mglados@ubuntu[00m:[01;34m~[00m$ exit
+exit
+
+Script done on 2022-03-20 10:53:51-07:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2022-03-20 10:53:54-07:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+(base) ]0;glados@ubuntu: ~[01;32mglados@ubuntu[00m:[01;34m~[00m$ exit./lookup Murphy ~/.addr_book[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd bin[K
+(base) ]0;glados@ubuntu: ~/bin[01;32mglados@ubuntu[00m:[01;34m~/bin[00m$ cd bin[2Pexit./lookup Murphy ~/.addr_book
+This bash script will search for specific terms in /home/glados/.addr_book
+To use: 1 - Must be in /home/glados/bin, 2 - Call ./lookup TERM_1 TERM_2
+
+./lookup: line 36: syntax error: unexpected end of file
+(base) ]0;glados@ubuntu: ~/bin[01;32mglados@ubuntu[00m:[01;34m~/bin[00m$ ./lookup Murphy ~/.addr_bookcd bin[K[2Pexit
+exit
+
+Script done on 2022-03-20 10:54:14-07:00 [COMMAND_EXIT_CODE="2"]
+Script started on 2022-03-20 10:54:59-07:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+(base) ]0;glados@ubuntu: ~[01;32mglados@ubuntu[00m:[01;34m~[00m$ exit./lookup Murphy ~/.addr_book[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd bin[K
+(base) ]0;glados@ubuntu: ~/bin[01;32mglados@ubuntu[00m:[01;34m~/bin[00m$ cd bin[2Pexit./lookup Murphy ~/.addr_book[C ~/.addr_bookP ~/.addr_booka ~/.addr_booku ~/.addr_bookl ~/.addr_book[C ~/.addr_bookS ~/.addr_bookc ~/.addr_bookr ~/.addr_booki ~/.addr_bookp ~/.addr_bookt ~/.addr_book
+This bash script will search for specific terms in /home/glados/.addr_book
+To use: 1 - Must be in /home/glados/bin, 2 - Call ./lookup TERM_1 TERM_2
+
+./lookup: line 30: syntax error near unexpected token `done'
+./lookup: line 30: `done'
+(base) ]0;glados@ubuntu: ~/bin[01;32mglados@ubuntu[00m:[01;34m~/bin[00m$ ./lookup Murphy Paul Script ~/.addr_book[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd bin[K[2Pexit
+exit
+
+Script done on 2022-03-20 10:55:54-07:00 [COMMAND_EXIT_CODE="2"]
+Script started on 2022-03-20 10:58:07-07:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+(base) ]0;glados@ubuntu: ~[01;32mglados@ubuntu[00m:[01;34m~[00m$ exit./lookup Murphy Paul Script ~/.addr_book[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd bin[K
+(base) ]0;glados@ubuntu: ~/bin[01;32mglados@ubuntu[00m:[01;34m~/bin[00m$ cd bin[2Pexit./lookup Murphy Paul Script ~/.addr_book
+This bash script will search for specific terms in /home/glados/.addr_book
+To use: 1 - Must be in /home/glados/bin, 2 - Call ./lookup TERM_1 TERM_2
+
+Searching for Murphy in /home/glados/.addr_book...
+Mike Murphy - Unix/Linux Instructor - email: murphymike@fhda.edu
+
+Searching for Paul in /home/glados/.addr_book...
+Paul Cobbaut - Author - email: paul.cobbaut@gmail.com
+
+Searching for Script in /home/glados/.addr_book...
+Serge Ginderachter - Script and Infrastructure - email: serge@ginsys.eu
+Hendrik Vloed - Script and Infrastructure - hendrik.devloed@ugent.be
+
+Searching for /home/glados/.addr_book in /home/glados/.addr_book...
+
+All Address Book Entries:
+^C(base) ]0;glados@ubuntu: ~/bin[01;32mglados@ubuntu[00m:[01;34m~/bin[00m$ ./lookup Murphy Paul Script ~/.addr_book[K[K[K[K[K[K[K[K[K[K[K[K[K
+This bash script will search for specific terms in /home/glados/.addr_book
+To use: 1 - Must be in /home/glados/bin, 2 - Call ./lookup TERM_1 TERM_2
+
+Searching for Murphy in /home/glados/.addr_book...
+Mike Murphy - Unix/Linux Instructor - email: murphymike@fhda.edu
+
+Searching for Paul in /home/glados/.addr_book...
+Paul Cobbaut - Author - email: paul.cobbaut@gmail.com
+
+Searching for Script in /home/glados/.addr_book...
+Serge Ginderachter - Script and Infrastructure - email: serge@ginsys.eu
+Hendrik Vloed - Script and Infrastructure - hendrik.devloed@ugent.be
+
+All Address Book Entries:
+^C(base) ]0;glados@ubuntu: ~/bin[01;32mglados@ubuntu[00m:[01;34m~/bin[00m$ ./lookup Murphy Paul Script^[[A ~/.addr_book[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd bin[K[2Pexit
+exit
+
+Script done on 2022-03-20 10:59:11-07:00 [COMMAND_EXIT_CODE="130"]
+Script started on 2022-03-20 11:01:42-07:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+(base) ]0;glados@ubuntu: ~[01;32mglados@ubuntu[00m:[01;34m~[00m$ echo fixe[King the error of not being able to display addre ss book, [K[K + added sort by last name
+fixing the error of not being able to display address book + added sort by last name
+(base) ]0;glados@ubuntu: ~[01;32mglados@ubuntu[00m:[01;34m~[00m$ echo fixing the error of not being able to display address book + added sort by last name[Axit[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./lookup Murphy Paul Script^[[A ~/.addr_book[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd bin[K
+(base) ]0;glados@ubuntu: ~/bin[01;32mglados@ubuntu[00m:[01;34m~/bin[00m$ cd binecho fixing the error of not being able to display address book + added sort by last name[Axit[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./lookup Murphy Paul Script^[[A ~/.addr_book[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd bin[K./lookup Murphy Paul Script ~/.addr_book[K[K[K[K[K[K[K[K[K[K[K[K[K
+This bash script will search for specific terms in /home/glados/.addr_book
+To use: 1 - Must be in /home/glados/bin, 2 - Call ./lookup TERM_1 TERM_2
+
+Searching for Murphy in /home/glados/.addr_book...
+Mike Murphy - Unix/Linux Instructor - email: murphymike@fhda.edu
+
+Searching for Paul in /home/glados/.addr_book...
+Paul Cobbaut - Author - email: paul.cobbaut@gmail.com
+
+Searching for Script in /home/glados/.addr_book...
+Serge Ginderachter - Script and Infrastructure - email: serge@ginsys.eu
+Hendrik Vloed - Script and Infrastructure - hendrik.devloed@ugent.be
+
+./lookup: line 34: syntax error near unexpected token `('
+./lookup: line 34: `echo All Address Book Entries (sort by first name):'
+(base) ]0;glados@ubuntu: ~/bin[01;32mglados@ubuntu[00m:[01;34m~/bin[00m$ ./lookup Murphy Paul Scriptcd bin[Kecho fixing the error of not being able to display address book + added sort by last name[Axit[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+exit
+
+Script done on 2022-03-20 11:02:45-07:00 [COMMAND_EXIT_CODE="2"]
+Script started on 2022-03-20 11:03:30-07:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+(base) ]0;glados@ubuntu: ~[01;32mglados@ubuntu[00m:[01;34m~[00m$ exit./lookup Murphy Paul Script[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd bin[K
+(base) ]0;glados@ubuntu: ~/bin[01;32mglados@ubuntu[00m:[01;34m~/bin[00m$ cd bin[2Pexit./lookup Murphy Paul Script
+This bash script will search for specific terms in /home/glados/.addr_book
+To use: 1 - Must be in /home/glados/bin, 2 - Call ./lookup TERM_1 TERM_2
+
+Searching for Murphy in /home/glados/.addr_book...
+Mike Murphy - Unix/Linux Instructor - email: murphymike@fhda.edu
+
+Searching for Paul in /home/glados/.addr_book...
+Paul Cobbaut - Author - email: paul.cobbaut@gmail.com
+
+Searching for Script in /home/glados/.addr_book...
+Serge Ginderachter - Script and Infrastructure - email: serge@ginsys.eu
+Hendrik Vloed - Script and Infrastructure - hendrik.devloed@ugent.be
+
+All Address Book Entries - sorted by first name:
+Hendrik Vloed - Script and Infrastructure - hendrik.devloed@ugent.be
+Mike Murphy - Unix/Linux Instructor - email: murphymike@fhda.edu
+Paul Cobbaut - Author - email: paul.cobbaut@gmail.com
+Serge Ginderachter - Script and Infrastructure - email: serge@ginsys.eu
+Wouter Verhelst - Reviewer - wo@uter.be
+Ywein Brande - License and Legal - email: ywein@crealaw.eu
+
+All Address Book Entries - sorted by last name:
+Ywein Brande - License and Legal - email: ywein@crealaw.eu
+Paul Cobbaut - Author - email: paul.cobbaut@gmail.com
+Serge Ginderachter - Script and Infrastructure - email: serge@ginsys.eu
+Mike Murphy - Unix/Linux Instructor - email: murphymike@fhda.edu
+Wouter Verhelst - Reviewer - wo@uter.be
+Hendrik Vloed - Script and Infrastructure - hendrik.devloed@ugent.be
+(base) ]0;glados@ubuntu: ~/bin[01;32mglados@ubuntu[00m:[01;34m~/bin[00m$ echo clean run through
+clean run through
+(base) ]0;glados@ubuntu: ~/bin[01;32mglados@ubuntu[00m:[01;34m~/bin[00m$ echo
+
+(base) ]0;glados@ubuntu: ~/bin[01;32mglados@ubuntu[00m:[01;34m~/bin[00m$ cat ~/.addr_book
+Mike Murphy - Unix/Linux Instructor - email: murphymike@fhda.edu
+Paul Cobbaut - Author - email: paul.cobbaut@gmail.com
+Serge Ginderachter - Script and Infrastructure - email: serge@ginsys.eu
+Ywein Brande - License and Legal - email: ywein@crealaw.eu
+Hendrik Vloed - Script and Infrastructure - hendrik.devloed@ugent.be
+Wouter Verhelst - Reviewer - wo@uter.be
+(base) ]0;glados@ubuntu: ~/bin[01;32mglados@ubuntu[00m:[01;34m~/bin[00m$ cat ~/.addr_bookecho[K clean run through./lookup Murphy Paul Script[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[KInfrastructure Brande Linux Hendrik
+This bash script will search for specific terms in /home/glados/.addr_book
+To use: 1 - Must be in /home/glados/bin, 2 - Call ./lookup TERM_1 TERM_2
+
+Searching for Infrastructure in /home/glados/.addr_book...
+Serge Ginderachter - Script and Infrastructure - email: serge@ginsys.eu
+Hendrik Vloed - Script and Infrastructure - hendrik.devloed@ugent.be
+
+Searching for Brande in /home/glados/.addr_book...
+Ywein Brande - License and Legal - email: ywein@crealaw.eu
+
+Searching for Linux in /home/glados/.addr_book...
+Mike Murphy - Unix/Linux Instructor - email: murphymike@fhda.edu
+
+Searching for Hendrik in /home/glados/.addr_book...
+Hendrik Vloed - Script and Infrastructure - hendrik.devloed@ugent.be
+
+All Address Book Entries - sorted by first name:
+Hendrik Vloed - Script and Infrastructure - hendrik.devloed@ugent.be
+Mike Murphy - Unix/Linux Instructor - email: murphymike@fhda.edu
+Paul Cobbaut - Author - email: paul.cobbaut@gmail.com
+Serge Ginderachter - Script and Infrastructure - email: serge@ginsys.eu
+Wouter Verhelst - Reviewer - wo@uter.be
+Ywein Brande - License and Legal - email: ywein@crealaw.eu
+
+All Address Book Entries - sorted by last name:
+Ywein Brande - License and Legal - email: ywein@crealaw.eu
+Paul Cobbaut - Author - email: paul.cobbaut@gmail.com
+Serge Ginderachter - Script and Infrastructure - email: serge@ginsys.eu
+Mike Murphy - Unix/Linux Instructor - email: murphymike@fhda.edu
+Wouter Verhelst - Reviewer - wo@uter.be
+Hendrik Vloed - Script and Infrastructure - hendrik.devloed@ugent.be
+(base) ]0;glados@ubuntu: ~/bin[01;32mglados@ubuntu[00m:[01;34m~/bin[00m$ exit
+exit
+
+Script done on 2022-03-20 11:05:24-07:00 [COMMAND_EXIT_CODE="0"]

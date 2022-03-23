@@ -1,0 +1,42 @@
+# !/bin/lookup
+
+# 0) Prep file
+FILE=~/.addr_book
+echo This bash script will search for specific terms in $FILE
+echo To use: 1 - Must be in ~/bin, 2 - Call ./lookup TERM_1 TERM_2
+echo
+
+# Checking for empty field parameters
+if [ "$#" == "0" ]
+	then
+		echo Need at least 1 parameter
+		echo
+		exit
+fi
+
+# While there are field parameters, search for the terms in the file
+while (( $# ))
+	do
+		# 1) Display a message such as "Searching for" then display the positional
+		#    parameter(s) provided when the script is executed
+		echo Searching for $1 in $FILE...
+
+		# 2) Find the entry in the "$Home/.addr_book" file that matches the positional
+		#    parameter(s)
+		grep $1 $FILE
+		echo
+
+		# Increment to next field parameter
+		shift
+	done
+
+# 3) Display a message such as "All Address Book Entries: "
+echo All Address Book Entries - sorted by first name:
+
+# 4) Display all lines from the file in sorted order (output must be sorted)
+cat $FILE | sort -k 1
+echo
+
+# 5) Sort Address Book Entries by Last Name
+echo All Address Book Entries - sorted by last name:
+cat $FILE | sort -k 2
