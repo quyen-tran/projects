@@ -1,0 +1,22 @@
+awk '$1 ~ /^24/ {print $0}' weblog.txt > weblog-awk.txt
+	Examines each line and identify if "24" is at the start of the line, output line if TRUE, save file to weblog-awk.txt
+cut -d ' ' -f 1 weblog.txt > weblog-cut.txt
+	Examines each line and cut the line based on whitespace delimiter, then grab field #1 (which is the IP address) and save output to weblog-cut.txt
+cut -d ' ' -f 4,5 weblog.txt > weblog-cut2.txt
+	Examines each line and cut the line based on whitespace delimiter, then grab field #4 and 5 (which is the timestamp) and save output to weblog-cut.txt
+paste -d "," weblog-cut.txt weblog-cut2.txt > weblog-paste.txt
+	Paste each line of weblog-cut2.txt horizontally to weblog-cut.txt with a comma in between and save output to weblog-paste.txt
+sed 's/stmarys/stanford/g' weblog.txt > weblog-sed.txt
+	Examines each line in stream and replace "stmarys" with "stanford" and save output to weblog-sed.txt
+sort -nr weblog.txt > weblog-sort.txt
+	Sorts weblog.txt via numeric reverse and save output to weblog-sort.txt
+cat weblog.txt | tr '[:upper:]' '[:lower:' > weblog-tr.txt
+	Examines each line of weblog.txt and translates all CAPITALIZED character to lowercase and save output to weblog-tr.txt
+ln ~/project2/weblog.txt ~/public_html/bin
+	Create and hard link weblog.txt in project2 folder to /public_html/bin (there is no weblog-new.txt in /public_html/bin)
+ln ~/project2/weblog-new.txt ~/public_html/bin
+	Create and hard link weblog-new.txt in project2 folder to /public_html/bin (there is no weblog-new.txt in /public_html/bin)
+ls -lia ~
+	ls output for all content in home directory including inode information; -a allows us to also see the current directory (.) and parent directory (..)
+ls -lia ~/*
+	ls output for all content in subdirectories from home including inode information; -a allows us to also see the current directory (.) and parent directory (..)
